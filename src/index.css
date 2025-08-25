@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 217 19% 16%;
 
-    --primary: 0 68% 56%;
+    --primary: 180 80% 40%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 220 13% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 220 13% 96%;
     --muted-foreground: 217 19% 45%;
 
-    --accent: 0 68% 56%;
+    --accent: 180 80% 40%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,7 +34,7 @@ All colors MUST be HSL.
 
     --border: 220 13% 91%;
     --input: 220 13% 91%;
-    --ring: 0 68% 56%;
+    --ring: 180 80% 40%;
 
     /* Custom design tokens */
     --hero-gradient: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(220 13% 98%) 100%);
@@ -72,7 +72,7 @@ All colors MUST be HSL.
     --popover: 217 19% 12%;
     --popover-foreground: 220 13% 98%;
 
-    --primary: 0 68% 56%;
+    --primary: 180 80% 40%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 217 19% 16%;
@@ -81,7 +81,7 @@ All colors MUST be HSL.
     --muted: 217 19% 16%;
     --muted-foreground: 217 19% 65%;
 
-    --accent: 0 68% 56%;
+    --accent: 180 80% 40%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -89,7 +89,7 @@ All colors MUST be HSL.
 
     --border: 217 19% 20%;
     --input: 217 19% 20%;
-    --ring: 0 68% 56%;
+    --ring: 180 80% 40%;
 
     /* Dark mode custom tokens */
     --hero-gradient: linear-gradient(135deg, hsl(217 19% 9%) 0%, hsl(217 19% 12%) 100%);
