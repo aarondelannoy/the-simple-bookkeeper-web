@@ -5,9 +5,9 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col bg-gradient-to-br from-background to-section-bg">
       <div className="w-full">
         <img 
-          src="/lovable-uploads/18d1f0b1-ff71-4e61-8051-e5899e7bdd0e.png" 
+          src="/lovable-uploads/4afb8d8d-9e4d-491f-ac68-9e79db47c3df.png" 
           alt="The Simple Bookkeeper - Professional Financial Services" 
-          className="w-full h-64 md:h-80 lg:h-96 object-cover"
+          className="w-full h-80 md:h-96 lg:h-[500px] xl:h-[600px] object-cover"
         />
       </div>
       <div className="container mx-auto text-center flex-1 flex items-center justify-center px-4">
