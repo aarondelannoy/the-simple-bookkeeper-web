@@ -7,7 +7,7 @@ const Hero = () => {
         <img 
           src="/lovable-uploads/4afb8d8d-9e4d-491f-ac68-9e79db47c3df.png" 
           alt="The Simple Bookkeeper - Professional Financial Services" 
-          className="w-full h-80 md:h-96 lg:h-[500px] xl:h-[600px] object-cover object-top"
+          className="w-full h-80 md:h-96 lg:h-[500px] xl:h-[600px] object-cover object-left md:object-top"
         />
       </div>
       <div className="container mx-auto text-center flex-1 flex items-center justify-center px-4">
