@@ -2,14 +2,16 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-background to-section-bg px-4">
-      <div className="container mx-auto text-center">
+    <section className="min-h-screen flex flex-col bg-gradient-to-br from-background to-section-bg">
+      <div className="w-full">
+        <img 
+          src="/lovable-uploads/18d1f0b1-ff71-4e61-8051-e5899e7bdd0e.png" 
+          alt="The Simple Bookkeeper - Professional Financial Services" 
+          className="w-full h-64 md:h-80 lg:h-96 object-cover"
+        />
+      </div>
+      <div className="container mx-auto text-center flex-1 flex items-center justify-center px-4">
         <div className="max-w-4xl mx-auto">
-          <img 
-            src="/lovable-uploads/19dcf934-bc04-41c8-8bb5-ff0e1fa052ba.png" 
-            alt="The Simple Bookkeeper" 
-            className="mx-auto mb-8 max-w-md w-full h-auto"
-          />
           <h1 className="text-5xl md:text-6xl font-bold mb-6 text-foreground leading-tight">
             Professional Bookkeeping
             <span className="block text-primary">Made Simple</span>
