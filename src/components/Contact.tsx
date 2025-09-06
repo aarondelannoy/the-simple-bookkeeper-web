@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "hello@thesimplebookkeeper.com",
+    content: "Brittany.Delannoy@thesimplebookkeeper.com",
     subtitle: "We respond within 24 hours"
   },
   {
