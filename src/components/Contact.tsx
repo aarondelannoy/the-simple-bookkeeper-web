@@ -6,19 +6,19 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: "(772) 579-9723",
+    content: "(555) 123-4567",
     subtitle: "Mon-Fri, 9AM-5PM EST"
   },
   {
     icon: Mail,
     title: "Email",
-    content: "Brittany.Delannoy@thesimplebookkeeper.com",
+    content: "hello@thesimplebookkeeper.com",
     subtitle: "We respond within 24 hours"
   },
   {
     icon: MapPin,
     title: "Location",
-    content: "Serving businesses on the Treasure Coast",
+    content: "Serving businesses nationwide",
     subtitle: "Remote bookkeeping services"
   },
   {
@@ -51,7 +51,7 @@ const Contact = () => {
                   <info.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{info.title}</h3>
-                <p className={`text-foreground font-medium mb-1 text-sm sm:text-base ${info.title === 'Email' ? 'break-all' : ''}`}>{info.content}</p>
+                <p className="text-foreground font-medium mb-1">{info.content}</p>
                 <p className="text-sm text-muted-foreground">{info.subtitle}</p>
               </CardContent>
             </Card>
