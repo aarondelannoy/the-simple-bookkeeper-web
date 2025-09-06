@@ -3,11 +3,11 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section className="min-h-screen flex flex-col bg-gradient-to-br from-background to-section-bg">
-      <div className="w-full">
+      <div className="w-full relative">
         <img 
           src="/lovable-uploads/9a633460-6e3f-4b43-9544-1728525631be.png" 
           alt="The Simple Bookkeeper - Professional Financial Services" 
-          className="w-full h-80 md:h-96 lg:h-[500px] xl:h-[600px] object-cover object-left md:object-top"
+          className="w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover object-center"
         />
       </div>
       <div className="container mx-auto text-center flex-1 flex items-center justify-center px-4">
