@@ -49,11 +49,11 @@ const About = () => {
               </blockquote>
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
-                  <span className="text-primary font-semibold">SM</span>
+                  <span className="text-primary font-semibold">DF</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Sarah Mitchell</p>
-                  <p className="text-muted-foreground">Owner, Green Valley Landscaping</p>
+                  <p className="font-semibold text-foreground">Danielle Forte</p>
+                  <p className="text-muted-foreground">Owner, All Tech Depot</p>
                 </div>
               </div>
             </div>
