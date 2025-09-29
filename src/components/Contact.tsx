@@ -18,7 +18,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Location",
-    content: "Serving businesses on the Treasure Coast",
+    content: "Serving the Treasure Coast",
     subtitle: "Remote bookkeeping services"
   },
   {
