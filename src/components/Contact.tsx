@@ -12,7 +12,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "hello@thesimplebookkeeper.com",
+    content: "info@thesimplebookkeeper.com",
     subtitle: "We respond within 24 hours"
   },
   {
@@ -51,7 +51,7 @@ const Contact = () => {
                   <info.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{info.title}</h3>
-                <p className="text-foreground font-medium mb-1">{info.content}</p>
+                <p className="text-foreground font-medium mb-1 break-words text-sm">{info.content}</p>
                 <p className="text-sm text-muted-foreground">{info.subtitle}</p>
               </CardContent>
             </Card>
