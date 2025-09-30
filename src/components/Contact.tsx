@@ -60,8 +60,10 @@ const Contact = () => {
         
         <div className="text-center">
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
-              Schedule Free Consultation
+            <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
+              <a href="https://calendly.com/aaron-delannoy/30min" target="_blank" rel="noopener noreferrer">
+                Schedule Free Consultation
+              </a>
             </Button>
             <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
               Request a Quote
