@@ -61,7 +61,7 @@ const Contact = () => {
         <div className="text-center">
           <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
-              <a href="https://calendly.com/aaron-delannoy/30min" target="_blank" rel="noopener noreferrer">
+              <a href="https://calendly.com/the-simple-bookkeeper/30min" target="_blank" rel="noopener noreferrer">
                 Schedule Free Consultation
               </a>
             </Button>
