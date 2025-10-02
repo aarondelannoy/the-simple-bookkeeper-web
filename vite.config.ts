@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/the-simple-bookkeeper-web/', 
   plugins: [
     react(),
     mode === 'development' &&
