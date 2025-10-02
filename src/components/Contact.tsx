@@ -66,8 +66,10 @@ const Contact = () => {
                 Schedule Free Consultation
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
-              Request a Quote
+            <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+              <a href="mailto:simplebookkeeperfl@gmail.com?subject=Request%20a%20Quote&body=Hi,%20I%20would%20like%20to%20request%20a%20quote%20for%20bookkeeping%20services.">
+                Request a Quote
+              </a>
             </Button>
           </div>
         </div>
