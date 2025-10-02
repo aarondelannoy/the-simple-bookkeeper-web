@@ -13,7 +13,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email",
-    content: "info@thesimplebookkeeper.com",
+    content: "simplebookkeeperfl@gmail.com",
     subtitle: "We respond within 24 hours"
   },
   {
