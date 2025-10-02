@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 
 const Schedule = () => {
   useEffect(() => {
+    // Scroll to top when page loads
+    window.scrollTo(0, 0);
+    
     // Load Calendly widget script
     const script = document.createElement("script");
     script.src = "https://assets.calendly.com/assets/external/widget.js";
