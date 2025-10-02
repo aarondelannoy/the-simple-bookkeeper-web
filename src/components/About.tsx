@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { CheckCircle } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const benefits = [
   "Over 10+ years of bookkeeping experience",
@@ -35,8 +36,10 @@ const About = () => {
               ))}
             </div>
             
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft transition-all duration-300 hover:shadow-lg">
-              Schedule a Consultation
+            <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-soft transition-all duration-300 hover:shadow-lg">
+              <Link to="/schedule">
+                Schedule a Consultation
+              </Link>
             </Button>
           </div>
           
