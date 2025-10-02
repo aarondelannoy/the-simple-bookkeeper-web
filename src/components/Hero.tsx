@@ -27,8 +27,10 @@ const Hero = () => {
                 Get Started Today
               </Link>
             </Button>
-            <Button variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
-              Learn More
+            <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
+              <a href="#services">
+                Learn More
+              </a>
             </Button>
           </div>
         </div>
