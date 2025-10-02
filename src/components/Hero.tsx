@@ -5,7 +5,7 @@ const Hero = () => {
     <section className="min-h-screen flex flex-col bg-gradient-to-br from-background to-section-bg">
       <div className="w-full relative">
         <img 
-          src="/lovable-uploads/9a633460-6e3f-4b43-9544-1728525631be.png" 
+          src="/lovable-uploads/hero-image.jpg" 
           alt="The Simple Bookkeeper - Professional Financial Services" 
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover object-left-top"
         />
