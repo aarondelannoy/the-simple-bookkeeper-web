@@ -10,7 +10,7 @@ const services = [
   {
     icon: FileText,
     title: "Financial Statements",
-    description: "Professional profit & loss statements, balance sheets, and cash flow reports delivered on time."
+    description: "Professional profit & loss statements, balance sheets, and cash flow reports delivered on\u00A0time."
   },
   {
     icon: PieChart,
