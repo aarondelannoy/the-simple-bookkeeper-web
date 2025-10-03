@@ -43,7 +43,8 @@ const Services = () => {
             Our Services
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive bookkeeping solutions tailored to your business needs. 
+            Comprehensive bookkeeping solutions tailored to your business needs.{' '}
+            <br />
             We handle the complexity so you can focus on what you do best.
           </p>
         </div>
