@@ -7,7 +7,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    content: "(772) 206-0806",
+    content: "(772) 579-9723",
     subtitle: "Mon-Fri, 9AM-5PM EST"
   },
   {
