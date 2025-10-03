@@ -5,7 +5,7 @@ const services = [
   {
     icon: Calculator,
     title: "Monthly Bookkeeping",
-    description: "Complete monthly financial record keeping, categorization, and reconciliation for your business."
+    description: "Complete monthly financial record keeping, categorization, and reconciliation for your\u00A0business."
   },
   {
     icon: FileText,
