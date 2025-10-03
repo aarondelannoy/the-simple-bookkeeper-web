@@ -46,7 +46,7 @@ const About = () => {
           <div className="lg:order-first">
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 shadow-soft">
               <blockquote className="text-lg italic text-foreground mb-6">
-                "We've been working with The Simple Bookkeeper for two years now. 
+                "We've been working with The Simple Bookkeeper for over five years now. 
                 Their attention to detail and clear monthly reports have given us 
                 complete confidence in our financial position. Highly recommended!"
               </blockquote>
