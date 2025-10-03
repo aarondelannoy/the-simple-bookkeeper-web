@@ -15,7 +15,7 @@ const services = [
   {
     icon: PieChart,
     title: "Tax Preparation Support",
-    description: "Organized records and documentation to make tax season stress-free for you and your accountant."
+    description: "Organized records and documentation to make tax season stress-free for you and your\u00A0accountant."
   },
   {
     icon: Clock,
