@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="w-full relative">
         <img 
           src="/hero-image-new.jpg" 
-          alt="The Simple Bookkeeper - Professional Financial Services" 
+          alt="Bookkeeping services in Treasure Coast Florida" 
           className="w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover object-left-top"
         />
       </div>
