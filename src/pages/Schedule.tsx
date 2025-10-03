@@ -30,7 +30,7 @@ const Schedule = () => {
           </Link>
         </Button>
         
-        <div className="w-full max-w-5xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Schedule Your Free Consultation
@@ -40,15 +40,11 @@ const Schedule = () => {
             </p>
           </div>
           
-          <div className="overflow-x-auto">
-            <div className="min-w-[640px]">
-              <div 
-                className="calendly-inline-widget h-[1200px] md:h-[1400px] lg:h-[700px]" 
-                data-url="https://calendly.com/the-simple-bookkeeper/30min?primary_color=1f8bae&hide_gdpr_banner=1"
-                style={{ minWidth: '640px' }}
-              />
-            </div>
-          </div>
+          	<div 
+            className="calendly-inline-widget h-[1200px] md:h-[1400px] lg:h-[700px]" 
+            data-url="https://calendly.com/the-simple-bookkeeper/30min?primary_color=1f8bae&hide_gdpr_banner=1"
+            style={{ minWidth: '320px' }}
+          />
         </div>
       </div>
       <Footer />
