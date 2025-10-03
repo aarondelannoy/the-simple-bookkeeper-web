@@ -1,9 +1,9 @@
 const Footer = () => {
   return (
     <footer className="text-left px-5 py-8 text-sm text-muted-foreground leading-relaxed">
-      COPYRIGHT © 2025 THE SIMPLE BOOKKEEPER, LLC - ALL
+      COPYRIGHT © 2025 THE SIMPLE BOOKKEEPER, LLC
       <br />
-      RIGHTS RESERVED.
+      ALL RIGHTS RESERVED.
     </footer>
   );
 };
