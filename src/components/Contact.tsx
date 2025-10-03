@@ -52,7 +52,13 @@ const Contact = () => {
                   <info.icon className="w-6 h-6 text-primary" />
                 </div>
                 <h3 className="font-semibold text-foreground mb-2">{info.title}</h3>
-                <p className="text-foreground font-medium mb-1 text-xs">{info.content}</p>
+                {info.title === "Phone" ? (
+                  <a href="tel:+17725799723" className="text-foreground font-medium mb-1 text-xs hover:text-primary transition-colors block">
+                    {info.content}
+                  </a>
+                ) : (
+                  <p className="text-foreground font-medium mb-1 text-xs">{info.content}</p>
+                )}
                 <p className="text-sm text-muted-foreground">{info.subtitle}</p>
               </CardContent>
             </Card>

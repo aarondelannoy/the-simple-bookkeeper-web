@@ -12,7 +12,7 @@ const Footer = () => {
           <br />
           Serving Florida's Treasure Coast
           <br />
-          (772) 579-9723
+          <a href="tel:+17725799723" className="hover:text-primary transition-colors">(772) 579-9723</a>
         </div>
       </div>
     </footer>
