@@ -21,7 +21,7 @@ const Schedule = () => {
   }, []);
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-background to-section-bg">
+    <main className="min-h-screen bg-section-bg">
       <div className="container mx-auto px-4 py-8">
         <Button asChild variant="outline" className="mb-6 hover:bg-primary hover:text-primary-foreground transition-all duration-300">
           <Link to="/">
