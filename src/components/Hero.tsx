@@ -18,8 +18,9 @@ const Hero = () => {
             <span className="block text-primary">Made Simple</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Focus on growing your business while we handle your books. 
-            Accurate, reliable, and refreshingly straightforward bookkeeping services.
+            Focus on growing your business while we handle your books.{' '}
+            <br className="hidden lg:block" />
+            Accurate, reliable, and refreshingly straightforward bookkeeping{'\u00A0'}services.
           </p>
           <div className="flex justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
