@@ -56,7 +56,7 @@ const About = () => {
                 </div>
                 <div>
                   <p className="font-semibold text-foreground">Danielle Forte</p>
-                  <p className="text-muted-foreground">Owner, All Tech Depot</p>
+                  <p className="text-muted-foreground">Owner, All Tech Depot, Inc.</p>
                 </div>
               </div>
             </div>
