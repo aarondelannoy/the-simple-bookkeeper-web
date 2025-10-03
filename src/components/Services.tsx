@@ -25,7 +25,7 @@ const services = [
   {
     icon: Shield,
     title: "QuickBooks Setup",
-    description: "Professional QuickBooks setup and training to streamline your financial management."
+    description: "Professional QuickBooks setup and training to streamline your financial\u00A0management."
   },
   {
     icon: Users,
