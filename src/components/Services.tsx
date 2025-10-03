@@ -30,7 +30,7 @@ const services = [
   {
     icon: Users,
     title: "Payroll Processing",
-    description: "Accurate payroll processing, tax filings, and compliance to keep your team happy."
+    description: "Accurate payroll processing, tax filings, and compliance to keep your team\u00A0happy."
   }
 ];
 
