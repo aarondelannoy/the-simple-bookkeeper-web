@@ -20,7 +20,7 @@ const services = [
   {
     icon: Clock,
     title: "Catch-up Bookkeeping",
-    description: "Behind on your books? We'll get you caught up quickly and accurately, no judgment."
+    description: "Behind on your books? We'll get you caught up quickly and accurately, no\u00A0judgment."
   },
   {
     icon: Shield,
