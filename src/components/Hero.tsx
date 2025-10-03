@@ -9,7 +9,7 @@ const Hero = () => {
         <img 
           src="/hero-image-new.jpg" 
           alt="Bookkeeping services in Treasure Coast Florida" 
-          className="w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-cover object-left-top"
+          className="w-full h-[400px] md:h-[500px] lg:h-[600px] xl:h-[700px] object-contain object-left-top"
         />
       </div>
       <div className="container mx-auto text-center flex-1 flex items-center justify-center px-4">
