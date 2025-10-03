@@ -25,9 +25,9 @@ const Hero = () => {
           </p>
           <div className="flex justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
-              <Link to="/schedule">
+              <a href="schedule.html">
                 Get Started Today
-              </Link>
+              </a>
             </Button>
           </div>
         </div>
