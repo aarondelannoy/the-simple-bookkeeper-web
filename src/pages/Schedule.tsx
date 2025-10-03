@@ -40,12 +40,11 @@ const Schedule = () => {
             </p>
           </div>
           
-          <div className="calendly-container w-full">
-            <div 
-              className="calendly-inline-widget w-full" 
-              data-url="https://calendly.com/the-simple-bookkeeper/30min?primary_color=1f8bae&hide_gdpr_banner=1"
-            />
-          </div>
+          	<div 
+            className="calendly-inline-widget h-[1200px] md:h-[1400px] lg:h-[700px]" 
+            data-url="https://calendly.com/the-simple-bookkeeper/30min?primary_color=1f8bae&hide_gdpr_banner=1"
+            style={{ minWidth: '320px' }}
+          />
         </div>
       </div>
       <Footer />

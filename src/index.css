@@ -120,38 +120,3 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
-
-/* Calendly responsive styling */
-.calendly-container {
-  min-width: 320px;
-  max-width: 100%;
-}
-
-.calendly-inline-widget {
-  height: 700px;
-  width: 100%;
-}
-
-@media (max-width: 1024px) {
-  .calendly-inline-widget {
-    height: 900px;
-  }
-}
-
-@media (max-width: 768px) {
-  .calendly-inline-widget {
-    height: 1100px;
-  }
-  .calendly-container {
-    min-width: 480px;
-  }
-}
-
-@media (max-width: 480px) {
-  .calendly-inline-widget {
-    height: 1300px;
-  }
-  .calendly-container {
-    min-width: 380px;
-  }
-}
