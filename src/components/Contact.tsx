@@ -57,7 +57,7 @@ const Contact = () => {
                     {info.content}
                   </a>
                 ) : info.title === "Email" ? (
-                  <a href="mailto:simplebookkeeperfl@gmail.com?subject=Request%20a%20Quote" className="text-foreground font-medium mb-1 text-xs hover:text-primary transition-colors block">
+                  <a href="mailto:simplebookkeeperfl@gmail.com" className="text-foreground font-medium mb-1 text-xs hover:text-primary transition-colors block">
                     {info.content}
                   </a>
                 ) : (
