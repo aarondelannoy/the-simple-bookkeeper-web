@@ -21,16 +21,11 @@ const Hero = () => {
             Focus on growing your business while we handle your books. 
             Accurate, reliable, and refreshingly straightforward bookkeeping services.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground shadow-elegant transition-all duration-300 hover:shadow-lg hover:scale-105">
               <Link to="/schedule">
                 Get Started Today
               </Link>
-            </Button>
-            <Button asChild variant="outline" size="lg" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300">
-              <a href="#services">
-                Learn More
-              </a>
             </Button>
           </div>
         </div>
