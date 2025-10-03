@@ -30,7 +30,7 @@ const Schedule = () => {
           </Link>
         </Button>
         
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
               Schedule Your Free Consultation
