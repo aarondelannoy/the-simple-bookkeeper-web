@@ -23,7 +23,7 @@ const Schedule = () => {
   return (
     <main className="min-h-screen bg-gradient-to-br from-background to-section-bg">
       <div className="container mx-auto px-4 py-8">
-        <Button asChild variant="ghost" className="mb-6">
+        <Button asChild variant="outline" className="mb-6 hover:bg-primary hover:text-primary-foreground transition-all duration-300">
           <Link to="/">
             <ArrowLeft className="mr-2 h-4 w-4" />
             Back to Home
