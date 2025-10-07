@@ -40,7 +40,7 @@ const Contact = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Get started with a free consultation. We'll review your current bookkeeping 
-            situation and show you how we can help streamline your financial management.
+            situation and show you how we can help streamline your financial{'\u00A0'}management.
           </p>
         </div>
         
