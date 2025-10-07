@@ -19,7 +19,7 @@ const Hero = () => {
             <span className="block text-primary">Made Simple</span>
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
-            Focus on growing your business while we handle your books.
+            Focus on growing your business while we handle your{'\u00A0'}books.
             <br />
             Accurate, reliable, and refreshingly straightforward bookkeeping{'\u00A0'}services.
           </p>
