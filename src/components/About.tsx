@@ -43,7 +43,7 @@ const About = () => {
             </Button>
           </div>
           
-          <div className="lg:order-first">
+          <div className="lg:order-first space-y-6">
             <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 shadow-soft">
               <blockquote className="text-lg italic text-foreground mb-6">
                 "We've been working with The Simple Bookkeeper for over five years now. 
@@ -57,6 +57,24 @@ const About = () => {
                 <div>
                   <p className="font-semibold text-foreground">Danielle Forte</p>
                   <p className="text-muted-foreground">Owner, All Tech Depot, Inc.</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-2xl p-8 shadow-soft">
+              <blockquote className="text-lg italic text-foreground mb-6">
+                "For years, The Simple Bookkeeper has been the one constant we never have to worry about. 
+                Reports arrive on time, the numbers are always right, and they keep us informed without 
+                overwhelming us with details. Their consistency has made them one of the most dependable 
+                partners in our business."
+              </blockquote>
+              <div className="flex items-center gap-4">
+                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                  <span className="text-primary font-semibold">TD</span>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Owner</p>
+                  <p className="text-muted-foreground">Top Drawer Cabinetry & More</p>
                 </div>
               </div>
             </div>
