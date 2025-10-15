@@ -73,8 +73,8 @@ const About = () => {
                   <span className="text-primary font-semibold">TD</span>
                 </div>
                 <div>
-                  <p className="font-semibold text-foreground">Owner</p>
-                  <p className="text-muted-foreground">Top Drawer Cabinetry & More</p>
+                  <p className="font-semibold text-foreground">Michael Lemanski</p>
+                  <p className="text-muted-foreground">Owner, Top Drawer Cabinetry & More</p>
                 </div>
               </div>
             </div>
